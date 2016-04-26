@@ -1,0 +1,402 @@
+/*smal screens  */
+@media screen and (max-width: 600px)  {
+/*@media screen and (min-width: 721px) and (max-width: 1280px) {*/
+
+#logo {
+	width: 50%;
+
+}
+#menu li {
+	display: block;
+}
+    .folio{
+    display: block;
+    }
+/*
+.menu img {
+    display: block;
+	width: 90%;
+}
+    .folio{
+    display: block;
+    
+    }  
+
+
+.header{
+display: block;
+}
+    ul#menu2 {
+    display: block;
+   width: 100%;
+}
+
+
+.center{
+display: block;
+}
+
+   
+    .container {
+	width: 100%;
+    display: block;
+	margin: auto;
+}
+*/
+}
+/*CV*/
+.cv{
+text-align: center;
+font-size: 20px;
+    
+}
+.cv li{
+list-style-type: none;
+}
+table, th, td{
+border: 1px solid black;
+font-size: 20px;
+}
+.snimka-cv{
+margin-left: 15px;
+height: 400px;
+width: 300px;
+border: 4px solid black;
+float: left;
+}
+.contakts-cv{
+font-size: 60px;
+color: #188EEF;
+}
+.introduction{
+height: auto;
+width: auto;
+font-size: 30px;
+float: left;
+}
+.email {
+font-size: 30px;
+}
+.header-cv{
+font-size: 30px;
+text-align: left;
+margin-left: 30px;
+color: #188EEF;
+}
+.header-cv-summary{
+font-size: 30px;
+text-align: center;
+margin-left: 30px;
+color: #188EEF;
+}
+.languages-cv{
+    display: block;
+    margin: 0 auto;
+text-align: center;
+list-style: none;
+}
+
+.languages-cv li{
+    font-size: 25px;
+}
+.experience-cv {
+font-size: 25px;
+text-align: center;
+}
+.education-cv{
+font-size: 25px;
+text-align: center;
+}
+/*--end--of--CV*/
+div.folio{
+    display: inline-block;
+    height: auto;
+    width: 20%;
+    text-align: center;
+    font-size: 20px;
+    margin: 100px 2%;
+}
+
+
+
+div.matush{
+display: block;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid black;
+}
+div.img {
+    margin: 5px;
+    padding: 5px;
+    height: 200px;
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+div.img img {
+    display: inline;
+    margin: 5px;
+}
+
+
+div.desc {
+    text-align: center;
+    font-weight: normal;
+    margin: 5px;
+}
+
+h1{
+font-size: 70px;
+font-family:sans-serif;
+    
+
+}
+.border-class{
+border: 1px solid pink;
+}
+.border-class:hover{
+border: 1px solid green;
+}
+.portfolio-box{
+/*display: inline-block;*/
+height: 80%;
+width: 80%;
+float: left;
+font-size: 20px;
+text-align: center;
+}
+
+.pictures-nav{
+    
+display: inline-block;
+height: 300px;
+width: 300px;
+}
+
+
+.img-inside-h2{
+    height: 90%;
+    width: 90%;
+}
+
+body {
+	font: 12px Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #000;
+    height: auto;
+    width: auto;
+    background-color: red;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    display: block;
+	width: auto;
+    height: auto;
+	background-color: #FFF;
+	margin: auto;
+    
+
+}
+.cheat {clear:both;}
+
+.content {
+	/*float: right;*/
+    margin-left: auto;
+    margin-right: auto;
+	width: auto;
+	height:auto;
+    text-align: center;
+    
+	
+}
+content-pictures{
+display: inline;
+text-align: center;
+}
+.header {
+}
+#portrait {
+	text-align: center;
+	margin: auto;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+    padding-left: 20px;
+}
+#logo {
+	width: 17%;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+.header h1 {
+	display: inline;
+}
+#menu {
+	width: auto;
+}
+#menu ul {
+	display: inline-block;
+}
+#menu li{
+display: inline;
+
+}
+#menu2 {
+   width: 650px;
+    margin-left: auto;
+    display: inline-block;
+ 
+}
+#menu2 li{
+    display: inline-block;
+    padding-bottom: 20px;
+    
+
+}
+#menu img {
+	width: 20%;
+    
+}
+.content li {
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.aboutme {
+	/*text-align: center;*/
+	font-weight: normal;
+    font-size: 30px;
+	margin: 30px;
+    float:none;
+    display: inline-block;
+    border: solid 1px yellow;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.content ul li {
+	list-style-type: none;
+    display: inline;
+   
+}
+.aboutmeul{
+    display: block;
+    margin: 120px;
+    height: auto;
+    width: auto;
+    float: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.desc{
+font-size: 30px;
+}
+
+
+.bulgariaimg{
+text-align: center;
+font-family: sans-serif;
+font-size: 30px;
+padding-top: 30px;
+    
+}
+.italyimg{
+text-align: center;
+font-family: sans-serif;
+font-size: 20px;
+}
+
+
+.czechimg{
+text-align: center;
+font-family: sans-serif;
+font-size: 30px;
+padding-top: 20px;
+
+
+}
+
+.usaimg{
+text-align: center;
+font-family: sans-serif;
+font-size: 30px;
+    padding-top: 20px;
+
+}
+.favoriteimg{
+padding-top: 20px;
+    text-align: center;
+
+}
+.friandsimg{
+text-align: center;
+    padding-top: 20px;
+    font-size: 30px;
+}
+.foodimg{
+font-size: 20px;
+text-align: center;
+}
+.friends1{
+text-align: center;
+    font-size: 30px;
+    display: block;
+}
+
+.hobbies{
+font-size: 30px;
+    list-style-type: none;
+text-align: center;
+}
+
+    
+
+
+
+
+
+ul, ol, dl { 
+	padding: 0;
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	
+	padding-right: 15px;
+}
+a img { 
+	border: none;
+}
+
+a:link {
+	color: #42413C;
+	text-decoration: underline; 
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { 
+	text-decoration: none;
+}
+
+.fltrt {  
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { 
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { 
+	clear: both;
+	height: 0;
+	font-size: 1px;
+	line-height: 0px;
+}
