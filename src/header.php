@@ -1,4 +1,4 @@
-<?php 
+<?php
 $db = new PDO("mysql:host=localhost; dbname=kea_projects", "root","");
 $projects = $db->query("SELECT project_id, header,project_type,used_skills,description,reflection,image FROM projects ORDER BY project_id ASC");
 $deliveries = $db->query ("SELECT * FROM deliveries ORDER BY deliveri_id ASC");
@@ -12,7 +12,6 @@ $deliveries = $db->query ("SELECT * FROM deliveries ORDER BY deliveri_id ASC");
 <title>Travel Pictures</title>
 
 <style type="text/css">
-z
 </style>
 <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
@@ -26,15 +25,16 @@ z
   <h1> Deyan's Travel Pictures </h1>
     </div>
     <div align="center">
-      
+
                 <ul id="menu">
+                <!--TODO: Replace images in menu with hyperlinks, style with css -->
         <li><a href="index.php"><img src="img\menu\Home2.png" alt="me"></img></a></li>
         <li><a href="Portfolio.php?module_id="><img src="img/menu/Portfolio.png" alt="me"></img></a></li>
         <li><a href="Pictures.php"><img src="img\menu\Picture_of_places.PNG" alt="me"></img></a></li>
-        <li><a href="Favorite_photos.php"><img src="img\menu\Favorite_photos.png" alt="me"></img></a></li>           
+        <li><a href="Favorite_photos.php"><img src="img\menu\Favorite_photos.png" alt="me"></img></a></li>
     <li><a href="myfriends.php"><img src="img\menu\Friends.png" alt="me"></img></a></li>
         <li><a href="about.php"><img src="img\menu\about_me.PNG" alt="me"></img></a></li>
-        
+
 </ul>
 </div>
     </div>
