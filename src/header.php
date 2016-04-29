@@ -8,9 +8,14 @@ $deliveries = $db->query ("SELECT * FROM deliveries ORDER BY deliveri_id ASC");
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8" />
 
 <title>Travel Pictures</title>
 <link href="style.css" rel="stylesheet" type="text/css" />
+<!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+<![endif]-->
+<script src="scripts/main.js"></script>
 </head>
 
 <body>

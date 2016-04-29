@@ -3,12 +3,15 @@
 
 /*TODO: Clear unused css */
 
-@media screen and (min-width: 200px) and (max-width: 800px) {
+@media screen and (min-width: 200px) and (max-width: 767px) {
     #logo {
         width: 50%;
     }
     #menu li {
         display: block;
+    }
+    #menu li a {
+        font-size: 26px;
     }
     .folio {
         display: block;
@@ -17,35 +20,47 @@
 
 /*Desktop*/
 
-@media screen and (min-width: 801px) and (max-width: 8000px) {
+@media screen and (min-width: 768px) and (max-width: 8000px) {
     #menu li {
         display: inline-block;
     }
     .folio {
         width: 24%;
     }
+    #menu li a {
+        font-size: 16px;
+    }
 }
 
 /*CV*/
 
+.folio a img {
+    width: 100%;
+}
+.folio a {
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+}
+.folio a:link {
+    text-decoration: none;
+}
 header {
     margin-bottom: 100px;
-}
-body {
-    overflow-x: hidden;
 }
 #menu li a {
     display: block;
     height: 100%;
     text-decoration: none;
     padding: 22px 22px;
-    background-color: #7f8c8d;
-    font-size: 16px;
+    background-color: #a7a9ac;
+    /*font-size: 16px;*/
     color: #000;
-    border: 1px #34495e solid;
+    border: 1px #636466 solid;
+    border-collapse: collapse;
 }
 #menu li a:hover {
-    background-color: #95a5a6;
+    background-color: #888a8c;
 }
 #menu {
     margin: 0;
@@ -120,8 +135,7 @@ div.folio {
     /*height: auto;*/
     /*width: 20%;*/
     text-align: center;
-    /*
-    font-size: 20px;*/
+    font-size: 20px;
     /*margin: 100px 2%;*/
 }
 div.matush {
@@ -187,12 +201,12 @@ body {
 }
 .container {
     /*position: relative;
-    text-align: center;
     display: block;
     width: auto;
     height: auto;
     background-color: #FFF;
     margin: auto;*/
+    text-align: center;
 }
 .cheat {
     clear: both;
@@ -212,11 +226,11 @@ body {
 .header {}
 #portrait {
     text-align: center;
-    margin: auto;
-    width: 100%;
+    /*margin: auto;*/
+    /*width: 100%;*/
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 20px;
+    /*padding-left: 20px;*/
 }
 #logo {
     width: 17%;
@@ -259,16 +273,16 @@ body {
     display: inline;
 }
 .aboutmeul {
-    display: block;
-    margin: 120px;
-    height: auto;
+    /*display: block;*/
+    margin: 20px 120px;
+    /*height: auto;
     width: auto;
-    float: center;
+    float: center;*/
     text-align: center;
     font-size: 20px;
 }
 .desc {
-    font-size: 30px;
+    font-size: 20px;
 }
 .bulgariaimg {
     text-align: center;
