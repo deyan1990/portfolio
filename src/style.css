@@ -1,56 +1,57 @@
 /*smal screens  */
 
-@media screen and (min-width: 200px) and (max-width: 800px) { /*te go te responsiva*/
+
+/*TODO: Clear unused css */
+
+@media screen and (min-width: 200px) and (max-width: 800px) {
     #logo {
         width: 50%;
     }
-    /*#menu li {*/
     #menu li {
         display: block;
     }
     .folio {
         display: block;
     }
-    /*
-.menu img {
-    display: block;
-	width: 90%;
-}
-    .folio{
-    display: block;
-
-    }
-
-
-.header{
-display: block;
-}
-    ul#menu2 {
-    display: block;
-   width: 100%;
 }
 
+/*Desktop*/
 
-.center{
-display: block;
-}
-
-
-    .container {
-	width: 100%;
-    display: block;
-	margin: auto;
-}
-*/
-}
-@media screen and (min-width: 801px) and (max-width: 8000px) { /*tuka premesti vsi4ko koeto se promenq ot dolniq css*/
+@media screen and (min-width: 801px) and (max-width: 8000px) {
     #menu li {
-        display: inline;
+        display: inline-block;
+    }
+    .folio {
+        width: 24%;
     }
 }
 
 /*CV*/
 
+header {
+    margin-bottom: 100px;
+}
+body {
+    overflow-x: hidden;
+}
+#menu li a {
+    display: block;
+    height: 100%;
+    text-decoration: none;
+    padding: 22px 22px;
+    background-color: #7f8c8d;
+    font-size: 16px;
+    color: #000;
+    border: 1px #34495e solid;
+}
+#menu li a:hover {
+    background-color: #95a5a6;
+}
+#menu {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
 .cv {
     text-align: center;
     font-size: 20px;
@@ -116,11 +117,12 @@ table, th, td {
 
 div.folio {
     display: inline-block;
-    height: auto;
-    width: 20%;
+    /*height: auto;*/
+    /*width: 20%;*/
     text-align: center;
-    font-size: 20px;
-    margin: 100px 2%;
+    /*
+    font-size: 20px;*/
+    /*margin: 100px 2%;*/
 }
 div.matush {
     display: block;
@@ -159,9 +161,9 @@ h1 {
 }
 .portfolio-box {
     /*display: inline-block;*/
-    height: 80%;
+    /*height: 80%;
     width: 80%;
-    float: left;
+    float: left;*/
     font-size: 20px;
     text-align: center;
 }
@@ -179,18 +181,18 @@ body {
     margin: 0;
     padding: 0;
     color: #000;
-    height: auto;
+    /*height: auto;
     width: auto;
-    background-color: red;
+    background-color: red;*/
 }
 .container {
-    position: relative;
+    /*position: relative;
     text-align: center;
     display: block;
     width: auto;
     height: auto;
     background-color: #FFF;
-    margin: auto;
+    margin: auto;*/
 }
 .cheat {
     clear: both;
@@ -203,7 +205,7 @@ body {
     height: auto;
     text-align: center;
 }
-content-pictures {
+.content-pictures {
     display: inline;
     text-align: center;
 }
@@ -223,12 +225,6 @@ content-pictures {
 }
 .header h1 {
     display: inline;
-}
-#menu {
-    width: auto;
-}
-#menu ul {
-    display: inline-block;
 }
 #menu2 {
     width: 650px;
