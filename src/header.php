@@ -4,38 +4,37 @@ $projects = $db->query("SELECT project_id, header,project_type,used_skills,descr
 $deliveries = $db->query ("SELECT * FROM deliveries ORDER BY deliveri_id ASC");
 ?>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta charset="utf-8" />
 
 <title>Travel Pictures</title>
-
-<style type="text/css">
-</style>
 <link href="style.css" rel="stylesheet" type="text/css" />
+<!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+<![endif]-->
+<script src="scripts/main.js"></script>
 </head>
 
 <body>
 
 <div class="container">
-<div class="header">
-<div>
-    <a href="index.php"><img src="img\menu\Final.png" id="logo" alt="me" /></a>
-  <h1> Deyan's Travel Pictures </h1>
-    </div>
-    <div align="center">
+<!-- <div class="header"> -->
+<header>
 
-                <ul id="menu">
-                <!--TODO: Replace images in menu with hyperlinks, style with css -->
-        <li><a href="index.php"><img src="img\menu\Home2.png" alt="me"></img></a></li>
-        <li><a href="Portfolio.php?module_id="><img src="img/menu/Portfolio.png" alt="me"></img></a></li>
-        <li><a href="Pictures.php"><img src="img\menu\Picture_of_places.PNG" alt="me"></img></a></li>
-        <li><a href="Favorite_photos.php"><img src="img\menu\Favorite_photos.png" alt="me"></img></a></li>
-    <li><a href="myfriends.php"><img src="img\menu\Friends.png" alt="me"></img></a></li>
-        <li><a href="about.php"><img src="img\menu\about_me.PNG" alt="me"></img></a></li>
-
-</ul>
-</div>
-    </div>
-</body>
+  <h1> <a href="index.php"><img src="img\menu\Final.png" id="logo" alt="me" /></a> Deyan's Travel Pictures </h1>
+    <!-- </div> -->
+    <nav align="center">
+        <ul id="menu">
+          <li><a href="index.php">Home</a></li>
+          <li><a href="Portfolio.php?module_id=">Portfolio</a></li>
+          <li><a href="Pictures.php">Pictures of Places</a></li>
+          <li><a href="Favorite_photos.php">Favorite Photos</a></li>
+          <li><a href="myfriends.php">My Friends</img></a></li>
+          <li><a href="about.php">About Me</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- </body> -->
